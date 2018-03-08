@@ -1,8 +1,7 @@
 <template>
-  	<div>
-    	<!-- <top-menu></top-menu> -->
-		Hello World.
-  	</div>
+    <div id="app" class="fillcontain">
+		<router-view></router-view>
+    </div>
 </template>
 
 <script>
@@ -10,3 +9,8 @@
 
 	}
 </script>
+
+
+<style lang="less">
+	@import '../less/common';
+</style>
